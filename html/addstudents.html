@@ -1,0 +1,27 @@
+
+<!-- Add Student Form (Popup) -->
+<div id="addStudentModal" class="modal fade">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Add Student</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+              <form id="addStudentForm">
+                  <input type="text" id="firstName" placeholder="First Name" class="form-control mb-2" required>
+                  <input type="text" id="lastName" placeholder="Last Name" class="form-control mb-2" required>
+                  <select id="course" class="form-control mb-2" required onchange="setAmount()">
+                      <option value="" hidden>Select Course</option>
+                      <option value="Full Stack">Full Stack</option>
+                      <option value="Frontend">Frontend</option>
+                      <option value="Backend">Backend</option>
+                      <option value="UI/UX Design">UI/UX Design</option>
+                  </select>
+                  <input type="text" id="amount" class="form-control mb-2" readonly>
+                  <button type="submit" class="btn btn-primary w-100">Submit</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>

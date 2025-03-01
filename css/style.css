@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+  background-color: green;
+  margin: 10px;
+}
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+.logout-btn {
+  color: white;
+  border: 1px solid white;
+}
+.logout-btn:hover {
+  background-color: white;
+  color: green;
+}
